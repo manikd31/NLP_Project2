@@ -1,1 +1,7 @@
-# NLP_Project2
+# Machine Translation using Transformer
+
+## Introduction
+Machine Translation is a fundamental part of Natural Language Processing research today. This is justified by the fact that at present there are more than 5,000 languages spoken by people throughout the world. Therefore, there needs to be an efficient system that can understand these languages and translate them to a specific language. In this article, we review a specific machine translation model built to overcome the complexities faced by the most commonly used Recurrent Neural Networks and Long Short-Term Memory networks -- the Transformer model. We develop the baseline implementation of the Transformer model and study the network to further enhance the performance on the task of machine translation.
+
+## Dataset Description
+The Mutli30K data-set is used for this project. Compared with the Workshop on Machine Translation (WMT) data-set, the Multi30K is relatively small. The corpus has 30K sentences, with an average sentence length of 10-12 words, and maximum and minimum sentence-lengths of 38 and 3 words, respectively. Therefore, models should be able to achieve decent Bilingual Evaluation Understudy (BLEU) scores fast (in several hours). For the scope of this project, the sentences used are in German and English languages - each sentence of the data-set is present in both the given languages. Therefore, the model can either use English sentences to German translations, or vice versa, to predict English translations using German sentences. We use German sentences and train the model to translate them to their English counterparts.
